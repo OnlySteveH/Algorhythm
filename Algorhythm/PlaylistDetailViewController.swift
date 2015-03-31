@@ -24,6 +24,7 @@ class PlaylistDetailViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        println("playlist \(playlist?.description)")
         if playlist != nil {
             playlistCoverImage.image = playlist!.largeIcon
             playlistCoverImage.backgroundColor = playlist!.backgroundColor

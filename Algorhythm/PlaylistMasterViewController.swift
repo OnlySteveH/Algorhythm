@@ -32,8 +32,10 @@ class PlaylistMasterViewController: UIViewController {
             playlistImageView.backgroundColor = playlist.backgroundColor
         }
         
-        let playlist = Playlist(index: 0)
+        /**let playlist = Playlist(index: 0)
+        println(playlist)
         playlistImageView0.image = playlist.icon
+**/
         
     }
 

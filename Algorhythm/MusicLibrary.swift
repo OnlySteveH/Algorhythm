@@ -9,13 +9,14 @@
 import Foundation
 
 struct MusicLibrary {
-    let library = [[
-        "title": "Rise and Shine",
-        "description": "Get your morning going by singing along to these classic tracks as you hit the shower bright and early!",
-        "icon": "coffee.pdf",
-        "largeIcon": "coffee_large.pdf",
-        "backgroundColor": ["red": 255, "green": 204, "blue": 51, "alpha": 1.0],
-        "artists": ["American Authors", "Vacationer", "Matt and Kim", "MGMT", "Echosmith", "Tokyo Police Club", "La Femme"]
+    let library =
+        [[
+            "title": "Rise and Shine",
+            "description": "Get your morning going by singing along to these classic tracks as you hit the shower bright and early!",
+            "icon": "coffee.pdf",
+            "largeIcon": "coffee_large.pdf",
+            "backgroundColor": ["red": 255, "green": 204, "blue": 51, "alpha": 1.0],
+            "artists": ["American Authors", "Vacationer", "Matt and Kim", "MGMT", "Echosmith", "Tokyo Police Club", "La Femme"]
         ],
         [
             "title": "Runner's Rampage",
